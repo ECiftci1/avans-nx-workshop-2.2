@@ -780,10 +780,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
                             </svg>
                             Add UI library
                         </summary>
-                        <pre><span># Generate UI lib</span>
-nx g @nx/angular:lib ui
-<span># Add a component</span>
-nx g @nx/angular:component button --project ui</pre>
                     </details>
                     <details>
                         <summary>
