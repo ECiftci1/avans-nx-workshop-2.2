@@ -3,8 +3,8 @@
     "version": "0.0.0",
     "license": "MIT",
     "scripts": {
-        "deploy": "nx run share-a-meal-web:build",
         "build": "nx run-many -t build",
+        "build:my-app": "nx run my-app:build:production",
         "test": "nx run-many -t test"
     },
     "private": true,
@@ -99,5 +99,9 @@
         "ts-jest": "^29.1.0",
         "ts-node": "10.9.1",
         "typescript": "5.5.4"
-    }
+    }, 
+    "engines": {
+    "node": "^20.0.0",
+    "npm": "^10.0.0"
+}
 }
