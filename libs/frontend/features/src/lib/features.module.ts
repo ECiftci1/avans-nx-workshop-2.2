@@ -4,7 +4,7 @@ import { UserDetailsComponent } from './users/user-details/user-details.componen
 import { UserListComponent } from './users/user-list/user-list.component';
 
 @NgModule({
-    imports: [CommonModule],
+    imports: [CommonModule], 
     declarations: [UserDetailsComponent, UserListComponent]
 })
 export class FeaturesModule {}
